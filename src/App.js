@@ -1,25 +1,12 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
-
+import TopHeadline from './Components/TopHeadLIne/TopHeadline';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <p className="bg-dark text-white p-5">Look mama ! i am learning react Bootstrap right now .</p>
+      <TopHeadline/>
     </div>
   );
 }
-
 export default App;
